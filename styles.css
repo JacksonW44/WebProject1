@@ -1,0 +1,74 @@
+li {
+    font-weight: normal;
+}
+
+body {
+    background-image: url(golf-course.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, li, ol, ul{
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(69, 69, 69);
+}
+
+.nav-bar {
+    background-color: rgb(92, 0, 0);
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 3px solid black;
+    justify-items: center;
+    font-size: large;
+}
+
+.block {
+    background-color: rgb(184, 184, 184);
+    border: 10px double red;
+    margin: 35px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableauPlaceholder {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 1400px; 
+    margin: 0 auto; 
+    overflow: hidden;
+  }
+  
+.tableauPlaceholder object {
+    width: 100% !important;
+    height: 3000px !important;
+    display: block !important;
+  }
+
